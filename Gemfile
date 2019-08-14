@@ -59,11 +59,12 @@ group :test do
   gem 'pry-doc'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
-  gem "jquery-rails"
-  gem 'bcrypt'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# Easy installation and use of chromedriver to run system tests with Chrome
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem "carrierwave"
+gem 'jquery-rails'
+gem 'bcrypt'
+gem 'chromedriver-helper'
